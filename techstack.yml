@@ -1,0 +1,29 @@
+repo_name: sachajw/dumpobjects
+report_id: 798d25dbe23be4ef120e4e1f424683e4
+repo_type: Public
+timestamp: '2023-11-16T10:43:20+00:00'
+requested_by: sbtaylor15
+provider: github
+branch: main
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/test.yaml"
+  last_updated_by: Steve Taylor
+  last_updated_on: 2023-05-19 18:19:51.000000000 Z
