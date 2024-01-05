@@ -1,7 +1,8 @@
 repo_name: sachajw/dumpobjects
 report_id: 798d25dbe23be4ef120e4e1f424683e4
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-16T10:43:20+00:00'
+timestamp: '2024-01-05T08:39:00+00:00'
 requested_by: sbtaylor15
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sachajw/dumpobjects
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -24,6 +26,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/sachajw/dumpobjects/blob/main/.github/workflows/test.yaml
   detection_source: ".github/workflows/test.yaml"
   last_updated_by: Steve Taylor
   last_updated_on: 2023-05-19 18:19:51.000000000 Z
